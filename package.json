@@ -5,10 +5,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "jest --watch",
+    "test": "jest --watch --coverage",
     "test:ci": "jest --ci",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
     "buttercms": "^1.2.3",
@@ -23,12 +24,16 @@
     "@storybook/addon-storyshots": "^5.3.19",
     "@storybook/addons": "^5.3.19",
     "@storybook/react": "^5.3.19",
+    "@storybook/storybook-deployer": "^2.8.6",
     "@testing-library/jest-dom": "^5.1.0",
     "@testing-library/react": "^9.4.0",
     "babel-jest": "^25.1.0",
     "babel-loader": "^8.1.0",
+    "babel-plugin-root-import": "^6.5.0",
+    "css-loader": "^4.2.1",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^25.1.0",
-    "react-test-renderer": "^16.13.1"
+    "react-test-renderer": "^16.13.1",
+    "style-loader": "^1.2.1"
   }
 }
