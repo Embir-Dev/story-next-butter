@@ -1,4 +1,5 @@
-import { render, screen } from "@testing-library/react";
+import React from 'react'
+import { render } from "@testing-library/react";
 import LinkItem from "./index";
 
 describe("LinkItem", () => {
@@ -7,5 +8,5 @@ describe("LinkItem", () => {
   it("renders without crashing", () => {
     render(<LinkItem {...defaultProps} />);
   });
-  
+
 });

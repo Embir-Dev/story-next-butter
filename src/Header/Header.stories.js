@@ -15,7 +15,7 @@ export const headerData = {
 };
 
 export const withHeaderLinkData = {
-  ...headerData, title: <a href="#">Example Link Title</a>
+  ...headerData, title: <a href="#">Example Link Title</a> // eslint-disable-line jsx-a11y/anchor-is-valid
 };
 
 export const Default = () => <Header {...headerData} />;
