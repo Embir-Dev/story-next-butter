@@ -3,7 +3,7 @@ import Header from "./index";
 
 describe("Header", () => {
   it("renders without crashing", () => {
-    render(<Header />);
+    render(<Header title="_" />);
   });
 
   it("has dynamic a header title", () => {
@@ -14,7 +14,7 @@ describe("Header", () => {
 
   it("has dynamic a body", () => {
     const body = "Body text"
-    const { getByText } = render(<Header body={body} />);
+    const { getByText } = render(<Header title="_" body={body} />);
     expect(getByText(body)).toBeInTheDocument();
   })
 });

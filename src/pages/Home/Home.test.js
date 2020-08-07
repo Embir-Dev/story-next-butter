@@ -10,4 +10,9 @@ describe("Home", () => {
     let {getByRole} = render(<Home />);
     expect(getByRole("heading", { name: "Sivli Embir's Demo"})).toBeInTheDocument();
   });
+  it("it has the list items", () => {
+    let {getAllByRole} = render(<Home />);
+    expect(getAllByRole("listitem")[0]).toBeInTheDocument();
+    expect(getAllByRole("listitem")).toHaveLength(4);
+  });
 });

@@ -33,3 +33,32 @@ Array [
   </p>,
 ]
 `;
+
+exports[`Storyshots LinkItem Default 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <a
+    className="item"
+    href="#"
+    role="listitem"
+  >
+    <h3>
+      Example Link
+       
+      <span>
+        →
+      </span>
+    </h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+  </a>
+</div>
+`;
