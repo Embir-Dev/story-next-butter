@@ -14,7 +14,7 @@ export default function Home() {
       <main className={styles.main}>
         <Header
           title={<><a href="https://www.linkedin.com/in/sivli-embir-37b33784/" target="_blank">Sivli Embir's</a> Demo</>}
-          body="This demo is a tech stack that shows off how to convert wireframes to specs, stories, and final deployment."
+          body="This demo is a tech stack that shows off Story first development using React and Storybook, hosted for free with Vercel."
         />
         <LinkGroup data={[
           {
