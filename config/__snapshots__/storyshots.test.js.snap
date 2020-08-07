@@ -34,6 +34,92 @@ Array [
 ]
 `;
 
+exports[`Storyshots LinkGroup Default 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <div
+    className="grid"
+    role="list"
+  >
+    <a
+      className="item"
+      href="#"
+      role="listitem"
+      target="_"
+    >
+      <h3>
+        Example 1
+         
+        <span>
+          →
+        </span>
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+    </a>
+    <a
+      className="item"
+      href="#"
+      role="listitem"
+      target="_"
+    >
+      <h3>
+        Example 2
+         
+        <span>
+          →
+        </span>
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+    </a>
+    <a
+      className="item"
+      href="#"
+      role="listitem"
+      target="_"
+    >
+      <h3>
+        Example 3
+         
+        <span>
+          →
+        </span>
+      </h3>
+      <p>
+        Short Text
+      </p>
+    </a>
+    <a
+      className="item"
+      href="#"
+      role="listitem"
+      target="_"
+    >
+      <h3>
+        Example 4
+         
+        <span>
+          →
+        </span>
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+    </a>
+  </div>
+</div>
+`;
+
 exports[`Storyshots LinkItem Default 1`] = `
 <div
   style={
@@ -48,6 +134,7 @@ exports[`Storyshots LinkItem Default 1`] = `
     className="item"
     href="#"
     role="listitem"
+    target="_"
   >
     <h3>
       Example Link

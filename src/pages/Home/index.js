@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Header from '@/src/Header'
-import LinkItem from '@/src/LinkItem'
+import LinkGroup from '@/src/LinkGroup'
 import styles from './Home.module.css'
 
 export default function Home() {
@@ -16,41 +16,29 @@ export default function Home() {
           title={<><a href="https://www.linkedin.com/in/sivli-embir-37b33784/" target="_blank">Sivli Embir's</a> Demo</>}
           body="This demo is a tech stack that shows off how to convert wireframes to specs, stories, and final deployment."
         />
-
-        <div className={styles.grid}>
-          <LinkItem
-            link="https://nextjs.org/docs"
-            title="Documentation"
-            body="Find in-depth information about Next.js features and API."
-          />
-          <LinkItem
-            link="https://nextjs.org/docs"
-            title="Documentation"
-            body="Find in-depth information about Next.js features and API."
-          />
-          <LinkItem
-            link="https://nextjs.org/docs"
-            title="Documentation"
-            body="Find in-depth information about Next.js features and API."
-          />
-          <LinkItem
-            link="https://nextjs.org/docs"
-            title="Documentation"
-            body="Find in-depth information about Next.js features and API."
-          />
-        </div>
+        <LinkGroup data={[
+          {
+            link: "https://github.com/Sivli-Embir/story-next-butter",
+            title: "Github",
+            body: "All work should be stored in version control so no progress is ever lost."
+          },
+          {
+            link: "https://Sivli-Embir.github.io/story-next-butter/",
+            title: "Storybook",
+            body: "All elements of a website should be defined as stories."
+          },
+          {
+            link: "https://buttercms.com/",
+            title: "Butter CMS (Pending)",
+            body: "All content should be dynamically loaded from a CMS API."
+          },
+          {
+            link: "https://vercel.com/",
+            title: "Vercel",
+            body: "SEO ready, free no configuration hosting."
+          }
+        ]} />
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
     </div>
   )
 }

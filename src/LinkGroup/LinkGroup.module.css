@@ -1,0 +1,19 @@
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  max-width: 800px;
+  margin: 3rem;
+}
+
+.grid .item {
+  width: 40%;
+}
+
+@media (max-width: 660px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
