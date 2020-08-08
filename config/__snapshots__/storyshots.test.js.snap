@@ -5,7 +5,9 @@ Array [
   <h1
     className="title"
   >
-    Example Title
+    <span>
+      Example Title
+    </span>
   </h1>,
   <p
     className="description"
@@ -20,11 +22,13 @@ Array [
   <h1
     className="title"
   >
-    <a
-      href="#"
-    >
-      Example Link Title
-    </a>
+    <span>
+      <a
+        href="#"
+      >
+        Example Link Title
+      </a>
+    </span>
   </h1>,
   <p
     className="description"

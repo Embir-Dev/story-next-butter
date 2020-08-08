@@ -18,6 +18,7 @@
     "buttercms": "^1.2.3",
     "eslint-config-react-app": "^5.2.1",
     "eslint-plugin-flowtype": "4.x",
+    "interweave": "^12.5.0",
     "next": "latest",
     "react": "16.12.0",
     "react-dom": "16.12.0"

@@ -14,7 +14,7 @@ export default {
 
 export const linkItemData = {
   link: "#",
-  title: 'Example Link',
+  title: "Example Link",
   body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 };
 

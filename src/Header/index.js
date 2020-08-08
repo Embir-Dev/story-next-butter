@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Header.module.css'
+import Interweave from 'interweave'
 
 export default function Header({title, body}) {
   return <>
-    <h1 className={styles.title}>{title}</h1>
+    <h1 className={styles.title}><Interweave content={title} /></h1>
     <p className={styles.description}>{body}</p>
   </>
 }

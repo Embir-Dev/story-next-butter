@@ -10,12 +10,12 @@ export default {
 };
 
 export const headerData = {
-  title: 'Example Title',
+  title: "Example Title",
   body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 };
 
 export const withHeaderLinkData = {
-  ...headerData, title: <a href="#">Example Link Title</a> // eslint-disable-line jsx-a11y/anchor-is-valid
+  ...headerData, title: "<a href='#'>Example Link Title</a>"
 };
 
 export const Default = () => <Header {...headerData} />;
